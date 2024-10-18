@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <h3>CRUD Application</h3>
+  <form action="#" id="frm">
+    <input type="hidden" id="id" />
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Full Name"/>
+    </div>
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="text" id="name" placeholder="Age" />
+    </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" id="name" placeholder="city"/>
+      </div>
+      <button type="submit" class="btn"><ion-icon name="bookmark-outline"></ion-icon>Save</button>
+    </form>
+  <table>
+    <thread>
+    <th>S.No</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+    <th>Edit</th>
+    <th>Delete</th>
+   </thread>
+   <tbody>
+    <tr>
+      <td>1</td>
+      <td>Joes</td>
+      <td>35</td>
+      <td>Salem</td>
+      <td>
+        <button class="btn-edit">
+          <ion-icon name="create-outline"></ion-icon>
+        </button>
+      </td>
+      <td>
+        <button class="btn-delete"><ion-icon name="trash-outline"></ion-icon>
+      </button>
+    </td>
+    </tr>
+   </tbody>
+   <tbody>
+    <tr>
+      <td>2</td>
+      <td>Arun</td>
+      <td>20</td>
+      <td>chennai</td>
+      <td>
+        <button class="btn-edit">
+          <ion-icon name="create-outline"></ion-icon>
+        </button>
+      </td>
+      <td>
+        <button class="btn-delete"><ion-icon name="trash-outline"></ion-icon>
+      </button>
+    </td>
+    </tr>
+   </tbody>
+ </table>
+  <script src="js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
